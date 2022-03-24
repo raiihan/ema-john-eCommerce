@@ -17,3 +17,11 @@
     color: orange;
     cursor: pointer;
 }
+
+@media screen and (max-width: 576px) {
+   .header{
+       display: block;
+       text-align: center;
+       height: 120px;
+   }
+}
