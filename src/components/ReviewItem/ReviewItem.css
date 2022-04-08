@@ -1,0 +1,53 @@
+.review-item{
+    border: 1px solid lightslategray;
+    border-radius: 8px;
+    max-width: 512px;
+    margin-top: 21px;
+    padding: 8px;
+    display: flex;
+}
+
+.review-item img{
+    width: 95px;
+}
+
+.review-item-details-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.review-item-name{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.review-item-details p{
+    margin: 0;
+}
+
+.orange{
+    color: orange;
+}
+
+.review-item .review-item-remove{
+    display: flex;
+    align-items: center;
+}
+.review-item .delete-button{
+    background: rgba(235, 87, 87, 0.3);
+    border: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.delete-icon{
+    color: rgba(235, 87, 87, 1);
+    font-size: 27px;
+}
